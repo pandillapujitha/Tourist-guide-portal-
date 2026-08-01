@@ -1,0 +1,48 @@
+
+/* ===== ANIMATIONS ===== */
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply fade animation */
+.overlay h1 {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.overlay p {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.btn {
+  animation: fadeIn 2s ease-in-out;
+  transition: 0.3s;
+}
+
+/* Button hover effect */
+.btn:hover {
+  background: orange;
+  transform: scale(1.1);
+}
+
+/* Navbar hover */
+nav a {
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: gold;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
