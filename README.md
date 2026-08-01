@@ -1,0 +1,1 @@
+Tourist Guide Portal is a web application that allows users to explore tourist places, register, login, and book tours online. It provides destination details and a booking form through a simple interface. The project demonstrates web development and cloud deployment concepts using HTML, CSS, JavaScript, GitHub, and GitHub Pages.
